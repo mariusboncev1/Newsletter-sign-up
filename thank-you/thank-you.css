@@ -1,0 +1,66 @@
+body {
+    background-color: #242742;
+}
+
+.thanks-container {
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    flex-direction: column;
+    padding: 30px;
+    height: 310px;
+    width: 340px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.check-icon {
+    position: relative;
+    height: 50px;
+    width: auto;
+}
+
+.title {
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #1e223a;
+}
+
+p {
+    margin-top: -10px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #36384E;
+}
+
+a {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#dismiss-btn {
+    height: 45px;
+    width: 90%;
+    background-color: #242742;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 0px solid;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    
+}
+
+#dismiss-btn:hover {
+    background-image: linear-gradient(to right, #FF5476, #FF6841);
+    box-shadow: 4px 4px 6px rgba(203, 74, 27, 0.3);
+}
