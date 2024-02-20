@@ -150,7 +150,6 @@ body {
 /* ! BUTTON */
 
 .subscribe-btn {
-    margin-top: 15px;
     height: 45px;
     width: 355px;
     background-color: #242742;
@@ -168,6 +167,10 @@ body {
     background-image: linear-gradient(to right, #FF5476, #FF6841);
     box-shadow: 4px 4px 6px rgba(203, 74, 27, 0.3);
     transition-delay: 1s;
+}
+
+.thankyou-page {
+    margin-top: 15px;
 }
 
 /* ! MEDIA QUERIES */
