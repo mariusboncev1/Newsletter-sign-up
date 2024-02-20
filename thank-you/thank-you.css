@@ -46,6 +46,8 @@ a {
 }
 
 #dismiss-btn {
+    margin-top: 10px;
+    align-self: center;
     height: 45px;
     width: 90%;
     background-color: #242742;

@@ -88,7 +88,7 @@ body {
 
 /* EMAIL INPUT */
 
-.interactions {
+.form {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -102,6 +102,19 @@ body {
     flex-direction: column;
     gap: 4px;
     width: fit-content;
+}
+
+.title-row {
+    display: flex;
+    margin: 0px 5px 0px 2px;
+    justify-content: space-between;
+}
+
+#error {
+    font-size: 10px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    color: #FF5476;
 }
 
 .input-title {
@@ -152,4 +165,5 @@ body {
 .subscribe-btn:hover {
     background-image: linear-gradient(to right, #FF5476, #FF6841);
     box-shadow: 4px 4px 6px rgba(203, 74, 27, 0.3);
+    transition-delay: 1s;
 }
