@@ -247,9 +247,15 @@ body {
         top: 5px;
     }
 
+    .email-input {
+        height: 50px;
+        font-size: 17px;
+    }
+
     .subscribe-btn {
         position: relative;
-        margin-top: 15px;
+        height: 50px;
+        font-size: 16px;
     }
 
 }
