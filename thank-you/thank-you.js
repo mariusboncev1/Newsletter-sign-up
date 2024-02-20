@@ -5,7 +5,6 @@ emailThankYou.innerHTML = localStorage.getItem('emailInput');
 // dismiss btn
 let dismissBtn = document.querySelector('#dismiss-btn');
 
-dismissBtn.addEventListener('submit', () => {
-    history.go(-1);
+dismissBtn.addEventListener("click", () => {
     history.back();
 })

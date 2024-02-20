@@ -17,7 +17,7 @@ body {
 
 /* ! IMAGE: */
 
-#background-container {
+#background-container-desktop {
     position: relative;
     display: flex;
     align-items: center;
@@ -26,11 +26,15 @@ body {
     width: 400px;
 }
 
-.background-img {
+.background-img-desktop {
     height: 490px;
     width: auto;
     display: flex;
     align-self: center;
+}
+
+.background-img-mobile {
+    display: none;
 }
 
 /* ! EMAIL INPUT */
@@ -166,4 +170,50 @@ body {
     background-image: linear-gradient(to right, #FF5476, #FF6841);
     box-shadow: 4px 4px 6px rgba(203, 74, 27, 0.3);
     transition-delay: 1s;
+}
+
+/* ! MEDIA QUERIES */
+
+@media(max-width: 431px) {
+
+    body {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    #container {
+        top: 0px;
+        position: relative;
+        width: 400px;
+        height: 80vh;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    #background-container-mobile {
+        position: relative;
+        width: 350px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .background-img-mobile {
+        display: block;
+        height: 312px;
+    }
+
+    .background-img-desktop {
+        display: none;
+    }
+
+    #main-container{
+        align-self: center;
+        position: relative;
+        width: 350px;
+        padding: 0;
+        margin: 0;
+    }
+
 }
