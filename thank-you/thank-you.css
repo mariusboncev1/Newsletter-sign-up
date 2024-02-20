@@ -9,8 +9,8 @@ body {
     top: 150px;
     flex-direction: column;
     padding: 30px;
-    height: 310px;
-    width: 340px;
+    height: 330px;
+    width: 330px;
     background-color: white;
     border-radius: 25px;
 }
@@ -38,7 +38,7 @@ p {
 }
 
 a {
-    margin-top: 15px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,7 +46,7 @@ a {
 }
 
 #dismiss-btn {
-    margin-top: 10px;
+    margin-top: 5px;
     align-self: center;
     height: 45px;
     width: 90%;
@@ -65,4 +65,47 @@ a {
 #dismiss-btn:hover {
     background-image: linear-gradient(to right, #FF5476, #FF6841);
     box-shadow: 4px 4px 6px rgba(203, 74, 27, 0.3);
+}
+
+/* ! MEDIA QUERIES: */
+
+@media(max-width: 431px) {
+    body {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    .thanks-container {
+        top: 0px;
+        height: 90vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .check-icon {
+        height: 60px;
+    }
+
+    .text {
+        position: relative;
+        bottom: 50px;
+        width: 370px;
+    }
+
+    .title {
+        font-size: 45px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    #dismiss-btn {
+        position: relative;
+        top: 140px;
+        width: 370px;
+        font-size: 16px;
+    }
+
 }

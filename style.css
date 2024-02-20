@@ -49,7 +49,6 @@ body {
 }
 
 .title {
-    
     font-family: "Roboto", sans-serif;
     font-weight: 800;
     color: #242742;
@@ -63,7 +62,7 @@ body {
     margin: 10px 0px 10px;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     color: #36384E;
 }
 
@@ -82,12 +81,11 @@ body {
 
 .check1, .check2, .check3 {
     display: flex;
-    align-items: center;
     gap: 10px;
 }
 
-.checl-icon {
-    height: 17px;
+.check-icon {
+    height: 20px;
 }
 
 /* EMAIL INPUT */
@@ -185,8 +183,8 @@ body {
     #container {
         top: 0px;
         position: relative;
-        width: 400px;
-        height: 80vh;
+        width: 413px;
+        height: 124vh;
         flex-direction: column;
         padding: 0;
         margin: 0;
@@ -204,16 +202,51 @@ body {
         height: 312px;
     }
 
+    #background-container-desktop {
+        display: none;
+    }
+
     .background-img-desktop {
         display: none;
     }
 
+    /* EMAIL INPUT */
+
     #main-container{
+        top: -22px;
         align-self: center;
         position: relative;
-        width: 350px;
+        width: 370px;
         padding: 0;
         margin: 0;
+    }
+
+    .title {
+        font-size: 45px;
+    }
+
+    .main-paragraph {
+        font-size: 17px;
+    }
+
+    .checkboxes {
+        width: 350px;
+        font-size: 17px;
+        gap: 30px;
+    }
+
+    .check-icon {
+        
+        align-items: baseline;
+    }
+
+    .form {
+        top: 5px;
+    }
+
+    .subscribe-btn {
+        position: relative;
+        margin-top: 15px;
     }
 
 }
