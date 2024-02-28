@@ -11,7 +11,6 @@ form.addEventListener('submit', (subscribeButton) => {
     // ERROR:
     if(emailInput.value.trim() === '') {
         errorValid.innerHTML = 'Valid email required';
-        errorValid.innerHTML.style.color = "red";
         emailInput.style.background = '#FFE8E6';
         emailInput.style.border = '1px solid #FF5476';
     }
